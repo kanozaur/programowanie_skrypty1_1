@@ -4,6 +4,3 @@ c=14
 
 print("Hello, world!")
 print(b-c)
-
-git config --local user.name "Karolina"
-git config --local user.email "kanozaur@gmail.com"
