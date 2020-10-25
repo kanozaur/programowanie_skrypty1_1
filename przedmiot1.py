@@ -18,3 +18,4 @@ print("Hello, world!")
 test=input("Wpisz nazwe tgodnia:")
 test
 
+
