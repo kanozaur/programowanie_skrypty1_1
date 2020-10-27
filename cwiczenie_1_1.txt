@@ -4,3 +4,5 @@ c=14
 
 print("Hello, world!")
 print(b-c)
+e=123
+d=23
