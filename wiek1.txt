@@ -1,0 +1,3 @@
+Wiek pierwszego studenta 25
+Wiek drugiego studenta22
+Pierwszy student jest starszy i ma 25lat(a)
