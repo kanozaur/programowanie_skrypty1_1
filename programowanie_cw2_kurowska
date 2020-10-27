@@ -1,3 +1,6 @@
+python
+wiek=input("Pierwszy student jest starszy i ma ")
+a="Pierwszy student jest starszy i ma ")
 wiek=input("Pierwszy student jest starszy i ma ")
 a="Pierwszy student jest starszy i ma"
 b=25

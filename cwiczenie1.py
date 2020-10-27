@@ -1,21 +1,14 @@
-przedmiot=input ("Wpisz nazwe przedmiotu:")
-print("Uczeszczam na nastepujacy kurs: ",przedmiot)
-#print(przedmiot)
-plik=open("text.txt")
+python
+wiek=input("Pierwszy student jest starszy i ma ")
+a="Pierwszy student jest starszy i ma "
+wiek=input("Pierwszy student jest starszy i ma ")
+a="Pierwszy student jest starszy i ma"
+b=25
+c="lata"
+plik=open("wiek_drugiego_studenta.txt")
 print(plik)
-tresc=plik.read()
+tresc=(plik.read)
 print(tresc)
-with open("values.txt") as plik:zawartosc=plik.readlines()
-with open("values.txt") as plik:zawartosc=plik.read().splitlines()
-with open("values.txt") as plik:zawartosc=[]
-for wiersz in plik:zawartosc.append(float(wiersz))
-
-a=12
-b=24
-print(b-a)
-print("Hello, world!")
-
-test=input("Wpisz nazwe tgodnia:")
-test
-a=12
-
+with open("wiek_drugiego_studenta.txt") as plik:zawartosc=(plik.readlines)
+with open("wiek_drugiego_studenta.txt") as plik:zawartosc=(plik.readsplitlines)
+with open("wiek_drugiego_studenta") as plik:zawartosc=[]
