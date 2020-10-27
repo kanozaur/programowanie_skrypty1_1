@@ -1,2 +1,0 @@
-przedmiot = input ("Wpisz nazwe przedmiotu:")
-print("Uczeszczam na nastepujacy kurs: ", przedmiot)

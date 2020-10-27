@@ -14,31 +14,3 @@ with open('wiek1.txt','w') as plik:
     plik.write("Wiek pierwszego studenta "+wiek1_1+'\n'+
     "Wiek drugiego studenta"+wiek1_2+'\n'+
     "Pierwszy student jest starszy i ma " + wiek1_1+"lat(a)")
-
-
-#with open("wiek_drugiego_studenta.txt") as plik:
-   
-   # zawartosc=plik.readlines()
-#with_open("wiek_drugiego_studenta.txt","a") as plik:
-    #plik.write(moj_tekst)
-
-#dosprawdzenia
-#plik=open("wiek_drugiego_studenta.txt")
-#print(plik)
-#tresc=(plik.read)
-#print(tresc)
-#with open("wiek_drugiego_studenta.txt") as plik:
-    #zawartosc=plik.readlines()
-#with open("wiek_drugiego_studenta.txt") as plik:
-    #zawartosc=plik.read().splitlines()
-#with open("wiek_drugiego_studenta.txt") as plik:
-    #zawartosc=[]
-   # for wiersz in plik:
-      #  zawartosc.append(wiersz)
-        #zawartosc.append(float(wiersz))
-
-#str(a-b)
-#print(a-b)
-#int(wiek)
-#
-#a="Pierwszy student jest starszy i ma "+

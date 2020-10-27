@@ -1,8 +1,0 @@
-a=1
-b=52
-c=14
-
-print("Hello, world!")
-print(b-c)
-e=123
-d=23
