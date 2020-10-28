@@ -12,5 +12,5 @@ if wiek1>wiek2:
     print(moj_tekst)
 with open('wiek1.txt','w') as plik:
     plik.write("Wiek pierwszego studenta "+wiek1_1+'\n'+
-    "Wiek drugiego studenta"+wiek1_2+'\n'+
+    "Wiek drugiego studenta "+wiek1_2+'\n'+
     "Pierwszy student jest starszy i ma " + wiek1_1+"lat(a)")
