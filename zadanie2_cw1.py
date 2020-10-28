@@ -1,20 +1,16 @@
-#wiek=input("Wiek pierwszego sudenta: ")
-#wiek1_1=float(wiek)
-#wiek1_1=str(int(wiek))
-
-#with open("wiek_drugiego_studenta.txt") as plik:
-   # wiek2=plik.readlines()
-   # print(wiek2)
-
 wiek1=input("Wpisz wiek pierwszego studenta: ")
-wiek1=float(wiek1)
-wiek1_1=str(int(wiek1))
+wiek1=int(wiek1)
 
-with open ("wiek_drugiego_studenta.txt") as plik2:
-    wiek2=plik2.readlines()
-    print(wiek2)
+with open ("wiek_drugiego_studenta.txt", 'r') as plik1:
+    wiek2=plik1.readlines()
 
-#with open("wiek_drugiego_studenta.txt") as plik:zawartosc=plik.readlines()
-#with open("wiek_drugiego_studenta.txt") as plik:zawartosc=plik.read().splitlines()
-#with open("wiek_drugiego_studenta.txt") as plik:zawartosc=[]
-#for wiersz in plik:zawartosc.append(float(wiersz))
+wiek2=int(wiek2[0])
+
+a=(wiek2-wiek1)
+a=str(a)
+tekst=("Pierwszy student jest mlodszy od drugiego o "+ a + " lat(a)")
+if wiek2>wiek1:
+    print(tekst)
+
+with open('wiek2.txt', 'w') as plik2:
+    plik2.write(tekst)
