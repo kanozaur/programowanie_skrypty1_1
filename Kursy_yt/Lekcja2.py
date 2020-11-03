@@ -19,7 +19,10 @@ b=input("Podaj 2 liczbe: ")
 print(int(a)+int(b))
 y=2
 z=2
-print(z+y)
+print(str(y)+str(z))
+del y
+d=17
+print(str(d)+str(z))
 
 
 
