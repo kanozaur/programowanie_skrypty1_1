@@ -1,0 +1,11 @@
+import turtle
+zolw=turtle.Pen()
+zolw.speed(1)
+zolw.forward(300)
+zolw.left(90)
+zolw.forward(300)
+zolw.left(90)
+zolw.forward(300)
+zolw.left(90)
+zolw.forward(300)
+turtle.done()
