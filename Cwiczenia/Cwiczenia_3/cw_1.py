@@ -1,6 +1,8 @@
 a=21.3
 if isinstance(a,str)==True:
      print("Typ zmiennej: lancuch.")
+if isinstance(a,str)==False:
+     print("Typ zmiennej: liczba")
 
 if isinstance(a,int)==True:
     print("Typ zmiennej: calkowita.")
