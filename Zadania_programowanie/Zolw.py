@@ -1,0 +1,32 @@
+import turtle
+import math
+szerokosc=600
+wysokosc=200
+szer_drzwi=50
+wys_drzwi=90
+turtle.setworldcoordinates(-400,0,400,800)
+turtle=turtle.Pen()
+turtle.speed(1)
+turtle.forward(szer_drzwi)
+turtle.left(90)
+turtle.forward(wys_drzwi)
+turtle.left(90)
+turtle.forward(szer_drzwi)
+turtle.left(90)
+turtle.forward(wys_drzwi)
+turtle.right(90)
+turtle.forward(275)
+turtle.right(90)
+turtle.forward(wysokosc)
+turtle.right(45)
+turtle.forward(szerokosc/math.sqrt(2))
+turtle.right(90)
+turtle.forward(szerokosc/math.sqrt(2))
+turtle.left(45)
+turtle.backward(szerokosc)
+turtle.forward(szerokosc)
+turtle.right(90)
+turtle.forward(wysokosc)
+turtle.right(90)
+turtle.forward(275)
+turtle.done()
