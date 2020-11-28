@@ -1,0 +1,6 @@
+id_stacji,stacja,data_pomiaru,godzina_pomiaru,temperatura,predkosc_wiatru,kierunek_wiatru,wilgotnosc_wzgledna,suma_opadu,cisnienie
+12295,Bialystok,2020-11-22,14,3.8,4,220,93.8,0.01,1016.4
+12600,Bielsko Biala,2020-11-22,14,6.8,8,200,21.7,0,1025.7
+12235,Chojnice,2020-11-22,14,7,6,270,88.8,0.7,1016.7
+12550,Czestochowa,2020-11-22,14,4.8,3,210,47.7,0,1024.8
+12160,Elblag,2020-11-22,14,5.7,8,230,100.0,0.2,1014
