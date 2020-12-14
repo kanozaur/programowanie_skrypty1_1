@@ -25,7 +25,7 @@ with open("C:/Users/Karolina/Documents/programowanie_skrypty/Zadania_programowan
 # kiedy i w jaki sposob moge zrobic utf-8??
 
 tablica=np.array(list_1)
-temperatura=tablica[],astype(float)
+temperatura=tablica[].astype(float)
 min_temp=min(temperatura)
 min_temp_index=np.where(temperatura==min_temp)
 print(tablica[])
