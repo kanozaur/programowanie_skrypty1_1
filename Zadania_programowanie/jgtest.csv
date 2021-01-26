@@ -1,0 +1,2 @@
+id_stacji,stacja,data_pomiaru,godzina_pomiaru,temperatura,predkosc_wiatru,kierunek_wiatru,wilgotnosc_wzgledna,suma_opadu,cisnienie
+12500,"Jelenia Góra",2021-01-19,10,2.7,1,220,72.0,0.4,1014.5

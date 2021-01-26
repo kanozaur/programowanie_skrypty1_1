@@ -12,8 +12,8 @@ def czytaj_jeden_plik(sciezka_i_plik):
     pola=[]
     lista=[]
     with open(sciezka_i_plik,"r",encoding="utf8") as plikcsv:
-    csvreader=csv.reader(plikcsv)
-    pola=next(csvreader)
+        csvreader=csv.reader(plikcsv)
+        pola=next(csvreader)
     for wiersz in csvreader:
         lista.append(wiersz)
     tablica=np.array(lista)
